@@ -13,22 +13,86 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=3, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet"> 
 </head>
 <body>
     <!-- Contenedor Principal -->
-    <div>
+    <div class="contenedor-principal">
+         <!-- Informacion Secundaria -->
+         <aside class="informacion-lateral">
+            <img src="/imagenes/photo.jpg" alt="mi foto perfil" width="300">
+            <!-- Contactos -->
+            <div class="contactos">
+                <h3>Contact</h3>
+                <div>
+                    <span>C:</span>
+                    <a href="tel:+7 777 777 777 777">+7 777 777 777 777 </a>
+                </div>
+                <div>
+                    <span>E: </span>
+                    <a href="mailto:jhondoe@gmail.com">jhondoe@gmail.com</a>
+                </div>
+            </div>
+            <!-- Habilidades tecnicas -->
+            <div class="habilidades-tecnicas">
+                <h3>Habilidades Tecnicas</h3>
+                <ul>
+                    <li>
+                        HTML5
+                    </li>
+                    <li>
+                        CSS3
+                    </li>
+                    <li>
+                        Git
+                    </li>
+                    <li>
+                        Webpack
+                    </li>
+                    <li>
+                        JavaScript
+                    </li>
+                    <li>
+                        React.js
+                    </li>
+                    <li>
+                        Node.js
+                    </li>
+                </ul>
+            </div>
+            <!-- Soft Skill -->
+            <div class="habilidades-blandas">
+                <h3>Habilidades Blandas</h3>
+                <ul>
+                    <li>
+                        Scrum
+                    </li>
+                    <li>
+                        Agile
+                    </li>
+                    <li>
+                        GTD
+                    </li>
+                    <li>
+                        Teamwork
+                    </li>
+                </ul>
+            </div>
+
+        </aside>
         <!-- Informacion general -->
-        <div>
+        <div class="informacion-general">
             <!-- Descripcion -->
-            <div>
-                <h2> Front-End Developer</h2>
+            <div class="descripcion">
+                <h2 class="descripcion-profesion"> Front-End Developer</h2>
                 <h1>Jhon Doe</h1>
                 <p>
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
                 </p>
             </div>
             <!-- Proyectos -->
-            <div>
+            <div class="proyectos">
                 <h3>Proyectos</h2>
                 <ol>
                     <li>
@@ -49,7 +113,7 @@
                 </ol>
             </div>
             <!-- Experiencia laboral -->
-            <div>
+            <div class="experiencia-laboral">
                 <h3>Experiencia Laboral</h3>
                     <!-- Empresa 1 -->
                     <div>
@@ -108,70 +172,14 @@
                     </div>
             </div>
             <!-- Educacion -->
-            <div>
+            <div class="educacion">
                 <h3>Education</h3>
-                <p>National University</p>
-                <p>Management</p>        
+                <div>
+                    <h4>National University</h4>
+                    <p>Management</p>
+                    <p>September 2009 - June 2014   |   Country</p>
+                </div>                
             </div>
-        </div>
-        <!-- Informacion Secundaria -->
-        <aside>
-            <img src="/imagenes/photo.jpg" alt="mi foto perfil" width="300">
-            <!-- Contactos -->
-            <h3>Contact</h3>
-            <div>
-                <span>C:</span>
-                <a href="tel:+7 777 777 777 777">+7 777 777 777 777 </a>
-            </div>
-            <div>
-                <span>E: </span>
-                <a href="mailto:jhondoe@gmail.com">jhondoe@gmail.com</a>
-            </div>
-        </aside>
-        <!-- Habilidades tecnicas -->
-        <div>
-            <h3>Habilidades Tecnicas</h3>
-            <ul>
-                <li>
-                    HTML5
-                </li>
-                <li>
-                    CSS3
-                </li>
-                <li>
-                    Git
-                </li>
-                <li>
-                    Webpack
-                </li>
-                <li>
-                    JavaScript
-                </li>
-                <li>
-                    React.js
-                </li>
-                <li>
-                    Node.js
-                </li>
-            </ul>
-        </div>
-        <!-- Soft Skill -->
-        <div>
-            <h3>Habilidades Blandas</h3>
-            <ul>
-                <li>
-                    Scrum
-                </li>
-                <li>
-                    Agile
-                </li>
-                <li>
-                    GTD
-                </li>
-                <li>
-                    Teamwork
-                </li>
-            </ul>
         </div>
     </div>
 </body>
