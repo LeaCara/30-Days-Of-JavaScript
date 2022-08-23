@@ -6,7 +6,10 @@ li{
     line-height: 24px;
 }
 
+/***********************/
 /* Contenido Principal */
+/***********************/
+
 .contenedor-principal{
     display: flex;
     flex-direction: row;
@@ -20,7 +23,29 @@ li{
     background-color: #b9fb69;
 }
 
+/***********************/
 /* Informacion general */
+/***********************/
+
+.informacion-general{
+    padding: 100px 88px;
+}
+
+/* contenido */
+
+.nombre{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 55px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+}
+
+.texto-descripcion{
+    width: 400px;
+}
+
 .descripcion {
     /* background-color: #a1b4d1; */
     /* margin-top: 40px; */
@@ -34,8 +59,32 @@ li{
     font-weight: 700;
 }
 
-.proyectos{
+/* Secciones principales */
+
+.titulo-seccion-principal{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27px;
+    margin-top: 45px;
+}
+
+.lista-proyectos{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #595959;
     /* background-color: #a1b4d1; */
+    text-shadow: 0px 4px 4px rgba(0,0,0,25);
+}
+
+.enlaces-proyectos{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+
 }
 
 .experiencia-laboral{
@@ -46,7 +95,10 @@ li{
     /* background-color: #a1d1b0; */
 }
 
+/***********************/
 /* Informacion lateral */
+/***********************/
+
 .informacion-lateral{
     background-color: #1E2939;
     padding: 40px 0;
@@ -65,7 +117,10 @@ li{
     margin-left: 40px;
 }   
 
-/* Seccion contactos*/
+/***********************/
+/*  Seccion contactos  */
+/***********************/
+
 .tipo-contacto{
     color: white;
     font-style: normal;
@@ -83,7 +138,10 @@ li{
     line-height: 24px;
 }
 
-/* Seccio de lista */
+/***********************/
+/*   Seccio de lista   */
+/***********************/
+
 .lista-lateral{
     padding: 0;
     padding-left: 17px;
