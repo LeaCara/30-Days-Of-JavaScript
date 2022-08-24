@@ -16,6 +16,7 @@ li{
     background-color: white;
     width: 1200px;
     margin: 40px auto;
+    box-shadow: 6px 6px 20px rgba(0,0,0,0.1);
 }
 
 
@@ -76,7 +77,16 @@ li{
     line-height: 24px;
     color: #595959;
     /* background-color: #a1b4d1; */
-    text-shadow: 0px 4px 4px rgba(0,0,0,25);
+    
+    
+}
+
+.lista-experiencia{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    padding-left: 17px;
 }
 
 .enlaces-proyectos{
@@ -84,11 +94,40 @@ li{
     font-weight: 400;
     font-size: 14px;
     line-height: 24px;
-
+    text-shadow: 0px 4px 4px rgba(0,0,0,25);
 }
 
+.puntos-proyecto{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 1.5px;
+    color: #595959;
+}
 .experiencia-laboral{
     /* background-color: #d1cda1; */
+}
+
+.texto-naranja{
+    color: orange;
+}
+
+.periodo-empresa{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    color: #A8A8A8;
+}
+
+.puesto-empresa{
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 11px;
 }
 
 .educacion{
